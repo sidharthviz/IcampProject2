@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+ nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+nav ul li:first-child{
+    color: rgba(25, 165, 25, 0.661);
+}
+ 
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section {
+    width: 50%;
+}
+
+.left {
+    margin-left: 5%;
+    position: relative;
+}
+
+.top{
+    width: 25px;
+}
+
+.left h1{
+    font-size: 60px;
+}
+
+.left p{
+    color: #808080;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottom {
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stats {
+    position: absolute;
+    width: 90%;
+    top: 60px;
+    right: 25px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    width: 20px;
+    right: -2em;
+}
+
+button {
+    padding: 15px 40px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(88, 179, 88);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.greenbox, .yellowbox {
+    position: absolute;
+    right: 0;
+}
+
+.greenbox{
+    width: 32%;
+    bottom: 45px;
+    right: 25px;
+}
+
+.yellowbox{
+    width: 30%;
+    bottom: 45px;
+}
+
+.doctor {
+    position: absolute;
+    height: 90%;
+    right: 20px;
+    bottom: 0;
+}
